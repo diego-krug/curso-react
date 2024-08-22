@@ -1,0 +1,51 @@
+.Contador input {
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+
+.Contador button {
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Contador label {
+    font-size: 1.4rem;
+}
+
+.Inc {
+    background-color: darkred;
+}
+
+.Inc:hover {
+    animation: IncHover 1s;
+}
+
+@keyframes IncHover {
+    0% {
+        background-color: lightcoral;
+    }
+    100% {
+        background-color: darkred;
+    }
+}
+
+.Dec {
+    background-color: darkblue;
+}
+
+.Dec:hover {
+    animation: DecHover 1s;
+}
+
+@keyframes DecHover {
+    0% {
+        background-color: lightblue;
+    }
+    100% {
+        background-color: darkblue;
+    }
+}
